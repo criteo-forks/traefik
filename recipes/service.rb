@@ -1,5 +1,5 @@
 systemd_service 'traefik' do
-  description 'Træfɪk, a modern reverse proxy'
+  unit_description 'Træfɪk, a modern reverse proxy'
   after %w( network.target remote-fs.target nss-lookup.target )
   install do
     wanted_by 'multi-user.target'

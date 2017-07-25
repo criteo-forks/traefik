@@ -9,4 +9,4 @@ version '0.1.3'
 issues_url 'https://github.com/redguide/traefik/issues' if respond_to?(:issues_url)
 source_url 'https://github.com/redguide/traefik' if respond_to?(:source_url)
 
-depends 'systemd'
+depends 'systemd', '>= 3.0'
